@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Confianza, experiencia y resultados. Especialistas en derecho civil, familiar y laboral en Lima, Perú."
+    />
+    <title>Abogados</title>
+    <!-- Canonical -->
+    <link rel="canonical" href="https://tusitio.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Estudio Legal – Abogados en Lima" />
+    <meta
+      property="og:description"
+      content="Confianza, experiencia y resultados. Especialistas en derecho civil, familiar y laboral."
+    />
+    <meta property="og:url" content="https://tusitio.com/" />
+    <meta property="og:image" content="https://tusitio.com/og-image.jpg" />
+    <meta property="og:locale" content="es_PE" />
+    <meta property="og:site_name" content="Estudio Legal" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Estudio Legal – Abogados en Lima" />
+    <meta
+      name="twitter:description"
+      content="Confianza, experiencia y resultados. Especialistas en derecho civil, familiar y laboral."
+    />
+    <meta name="twitter:image" content="https://tusitio.com/og-image.jpg" />
+    <meta name="twitter:site" content="@tucuenta" />
+    <!-- Opcional si tienes cuenta de Twitter -->
+
+    <link rel="icon" href="/images/logo.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .hero-text-color {
+        color: #d9a184;
+      }
+      .hero-button-bg {
+        background-color: #e47f58;
+      }
+      .hero-button-bg:hover {
+        background-color: #d1704f;
+      }
+      /* Para evitar el scroll cuando el menú está abierto */
+      .overflow-hidden-body {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <header class="absolute top-0 left-0 right-0 z-50 text-white">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4 md:py-6">
+          <a href="#" class="flex text-5xl items-center space-x-2">
+            <img src="./images/logo.png" alt="" class="w-16 h-16" />
+          </a>
+
+          <nav class="hidden lg:flex space-x-6 lg:space-x-8 items-center">
+            <a
+              href="#sobre-nosotros"
+              class="scroll-link text-sm uppercase font-medium hover:text-orange-300 transition-colors tracking-wider"
+              >Sobre nosotros</a
+            >
+            <a
+              href="#especialidades"
+              class="scroll-link text-sm uppercase font-medium hover:text-orange-300 transition-colors tracking-wider"
+              >Especialidades</a
+            >
+            <!-- <a
+              href="#"
+              class="scroll-link text-sm uppercase font-medium hover:text-orange-300 transition-colors tracking-wider"
+              >Nuestro equipo</a
+            > -->
+            <a
+              href="#contacto"
+              class="scroll-link text-sm uppercase font-medium hover:text-orange-300 transition-colors tracking-wider"
+              >Contacto</a
+            >
+          </nav>
+
+          <div class="hidden lg:flex items-center space-x-3">
+            <a
+              href="tel:+51923417407"
+              class="flex items-center space-x-2 text-sm font-medium text-white border border-gray-400 rounded-full px-4 py-1.5 hover:bg-[#d1704f] hover:border-[#d1704f] transition-colors duration-300"
+            >
+              <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+                ></path>
+              </svg>
+              <span>+51 923 417 408</span>
+            </a>
+            <a
+              href="mailto:tuemail@ejemplo.com"
+              aria-label="Enviar correo electrónico"
+              title="Enviar correo electrónico"
+              class="flex items-center justify-center bg-[#d1704f] text-white rounded-full p-2.5 hover:bg-[#bf6545] transition-colors duration-300"
+            >
+              <svg
+                class="h-5 w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                />
+                <path
+                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <div class="lg:hidden">
+            <button
+              id="mobile-menu-button"
+              class="text-white focus:outline-none"
+              aria-label="Abrir menú"
+              aria-expanded="false"
+            >
+              <svg
+                class="h-7 w-7"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M4 6h16M4 12h16m-7 6h7"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="mobile-menu"
+        class="fixed inset-0 z-[60] lg:hidden bg-white text-slate-700 flex flex-col items-center justify-center opacity-0 scale-95 pointer-events-none transition-all duration-300 ease-in-out"
+      >
+        <button
+          id="mobile-menu-close-button"
+          class="absolute top-5 right-5 sm:top-7 sm:right-7 text-slate-600 hover:text-orange-500 z-[61]"
+          aria-label="Cerrar menú"
+        >
+          <svg
+            class="h-8 w-8"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+
+        <nav class="flex flex-col items-center space-y-6 text-center">
+          <a
+            href="#sobre-nosotros"
+            class="scroll-link block px-3 py-2 text-2xl uppercase font-medium text-slate-700 hover:text-orange-500 rounded-md transition-colors tracking-wider"
+            >Sobre nosotros</a
+          >
+          <a
+            href="#especialidades"
+            class="scroll-link block px-3 py-2 text-2xl uppercase font-medium text-slate-700 hover:text-orange-500 rounded-md transition-colors tracking-wider"
+            >Especialidades</a
+          >
+          <!-- <a
+            href="#"
+            class="scroll-link block px-3 py-2 text-2xl uppercase font-medium text-slate-700 hover:text-orange-500 rounded-md transition-colors tracking-wider"
+            >Nuestro equipo</a
+          > -->
+          <a
+            href="#contacto"
+            class="scroll-link block px-3 py-2 text-2xl uppercase font-medium text-slate-700 hover:text-orange-500 rounded-md transition-colors tracking-wider"
+            >Contacto</a
+          >
+          <div class="pt-8 space-y-5">
+            <a
+              href="tel:+610383766284"
+              class="flex flex-col items-center px-3 py-2 text-xl font-medium text-slate-700 hover:text-orange-500 rounded-md transition-colors"
+            >
+              <svg
+                class="h-6 w-6 mb-1 text-orange-500"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+                ></path>
+              </svg>
+              <span>+61 (0) 3 8376 6284</span>
+            </a>
+            <a
+              href="mailto:tuemail@ejemplo.com"
+              class="flex flex-col items-center px-3 py-2 text-xl font-medium text-slate-700 hover:text-orange-500 rounded-md transition-colors"
+            >
+              <svg
+                class="h-6 w-6 mb-1 text-orange-500"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                />
+                <path
+                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                />
+              </svg>
+              <span>Correo Electrónico</span>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="relative h-screen min-h-[600px] sm:min-h-[700px] flex items-center justify-start text-white"
+      >
+        <div class="absolute inset-0">
+          <img
+            src="./images/banner-mobile.jpg"
+            alt="Persona en un entorno formal, esperando o reflexionando."
+            class="block lg:hidden w-full h-full object-cover"
+          />
+          <img
+            src="./images/banner-desktop.jpg"
+            alt="Equipo legal en discusión, representando colaboración y experiencia."
+            class="hidden lg:block w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 bg-black/60"></div>
+        </div>
+
+        <div
+          class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-left"
+        >
+          <div class="max-w-3xl">
+            <p
+              class="text-sm sm:text-base uppercase tracking-widest text-gray-300 mb-2 sm:mb-4 animate__animated animate__fadeInDown"
+              style="animation-delay: 0.2s"
+            >
+              Abogados
+            </p>
+            <h1
+              class="hero-text-color font-bold text-4xl sm:text-5xl md:text-5xl lg:text-6xl animate__animated animate__fadeInUp"
+              style="animation-delay: 0.5s"
+            >
+              Confianza, experiencia, resultados la ley de tu lado.
+            </h1>
+            <a
+              href="#especialidades"
+              class="mt-8 sm:mt-10 inline-flex items-center hero-button-bg text-white px-8 py-3.5 rounded-full text-sm sm:text-base font-semibold hover:shadow-lg transition-all duration-300 group animate__animated animate__fadeInUp"
+              style="animation-delay: 0.8s"
+            >
+              Nuestros servicios
+              <svg
+                class="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <a
+          href="#our-team"
+          class="absolute bottom-8 right-8 z-10 hidden sm:flex flex-col items-center space-y-1 text-white hover:text-orange-300 transition-colors group animate__animated animate__fadeInUp"
+          style="animation-delay: 1s"
+        >
+          <span class="text-xs uppercase tracking-wider font-medium"
+            >Nuestro equipo</span
+          >
+          <svg
+            class="w-5 h-5 animate-bounce group-hover:text-orange-300"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19 9l-7 7-7-7"
+            ></path>
+          </svg>
+        </a>
+      </section>
+
+      <section
+        id="sobre-nosotros"
+        class="bg-[#113A3F] text-white py-16 sm:py-20 lg:py-24"
+      >
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            class="flex flex-col lg:flex-row items-center lg:gap-16 xl:gap-24"
+          >
+            <div class="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
+              <p
+                class="text-sm font-semibold uppercase tracking-wider text-[#E47F58] mb-3"
+                data-aos="fade-up"
+                data-aos-duration="700"
+              >
+                ¿Por qué elegirnos?
+              </p>
+              <h2
+                class="text-4xl sm:text-5xl font-bold text-white mb-6 leading-tight"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="100"
+              >
+                Las mejores soluciones para sus problemas legales
+              </h2>
+              <p
+                class="text-gray-300 text-base lg:text-lg leading-relaxed mb-8"
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="200"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <div
+                data-aos="fade-up"
+                data-aos-duration="700"
+                data-aos-delay="300"
+              >
+                <a
+                  href="#"
+                  class="inline-block uppercase bg-[#E47F58] text-white px-8 py-3.5 rounded-md text-base font-semibold hover:bg-[#D1704F] transition-colors duration-300 shadow-lg"
+                >
+                  Consulta gratuita
+                </a>
+              </div>
+            </div>
+
+            <div class="lg:w-1/2 w-full">
+              <div class="grid grid-cols-2 gap-8 sm:gap-10">
+                <div
+                  class="text-center stat-item"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                  data-aos-delay="200"
+                >
+                  <div
+                    class="relative w-16 h-16 mx-auto mb-4 border-2 border-white/20 rounded-full flex items-center justify-center transition-colors duration-300 hover:border-[#E47F58]"
+                  >
+                    <svg
+                      class="w-7 h-7 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M6.633 10.5c.806 0 1.533-.425 2.031-1.08a9.041 9.041 0 012.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 00.322-1.672V3a.75.75 0 01.75-.75A2.25 2.25 0 0116.5 4.5c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 01-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-.804a4.501 4.501 0 00-1.423-.23H5.25m0-10.5h2.25m0 0H5.25M10.5 12H12m0 0H10.5m0 0H12m0 0H10.5m2.25-4.5h-2.25m0 0H7.875M10.5 7.5H12m7.5 4.5h-3.375M19.5 12h-2.25"
+                      />
+                    </svg>
+                  </div>
+                  <p class="text-4xl lg:text-5xl font-bold text-[#E47F58] mb-1">
+                    <span class="stat-number" data-target="95">0</span>%
+                  </p>
+                  <p class="text-sm text-gray-300 uppercase tracking-wider">
+                    Casos de éxito
+                  </p>
+                </div>
+
+                <div
+                  class="text-center stat-item"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                  data-aos-delay="300"
+                >
+                  <div
+                    class="relative w-16 h-16 mx-auto mb-4 border-2 border-white/20 rounded-full flex items-center justify-center transition-colors duration-300 hover:border-[#E47F58]"
+                  >
+                    <svg
+                      class="w-7 h-7 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                      />
+                    </svg>
+                  </div>
+                  <p class="text-4xl lg:text-5xl font-bold text-[#E47F58] mb-1">
+                    <span class="stat-number" data-target="180">0</span>+
+                  </p>
+                  <p class="text-sm text-gray-300 uppercase tracking-wider">
+                    Clientes de confianza
+                  </p>
+                </div>
+
+                <div
+                  class="text-center stat-item"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                  data-aos-delay="400"
+                >
+                  <div
+                    class="relative w-16 h-16 mx-auto mb-4 border-2 border-white/20 rounded-full flex items-center justify-center transition-colors duration-300 hover:border-[#E47F58]"
+                  >
+                    <svg
+                      class="w-7 h-7 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M16.5 18.75h-9m9 0a3 3 0 013 3h-15a3 3 0 013-3m9 0v-4.5A3.375 3.375 0 0012.75 9H11.25A3.375 3.375 0 007.5 12.375v4.5m9 0h-9"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M9.75 21a3.75 3.75 0 01-3.75-3.75V14.25h11.25v2.625a3.75 3.75 0 01-3.75 3.75m-3.75 0h-3.75M12 9V3.75A2.25 2.25 0 0114.25 1.5h.375c.621 0 1.125.504 1.125 1.125v2.25M9.75 3.75A2.25 2.25 0 007.5 1.5h-.375A2.25 2.25 0 004.875 3.75v2.25m12.375 0v2.25"
+                      />
+                    </svg>
+                  </div>
+                  <p class="text-4xl lg:text-5xl font-bold text-[#E47F58] mb-1">
+                    <span class="stat-number" data-target="30">0</span>+
+                  </p>
+                  <p class="text-sm text-gray-300 uppercase tracking-wider">
+                    Años de experiencia
+                  </p>
+                </div>
+
+                <div
+                  class="text-center stat-item"
+                  data-aos="fade-up"
+                  data-aos-duration="700"
+                  data-aos-delay="500"
+                >
+                  <div
+                    class="relative w-16 h-16 mx-auto mb-4 border-2 border-white/20 rounded-full flex items-center justify-center transition-colors duration-300 hover:border-[#E47F58]"
+                  >
+                    <svg
+                      class="w-7 h-7 text-white"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z"
+                      />
+                    </svg>
+                  </div>
+                  <p class="text-4xl lg:text-5xl font-bold text-[#E47F58] mb-1">
+                    <span class="stat-number" data-target="24">0</span>/7
+                  </p>
+                  <p class="text-sm text-gray-300 uppercase tracking-wider">
+                    Soporte
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="especialidades"
+        class="bg-[#113A3F] text-white pb-24 px-4 overflow-hidden sm:px-6 lg:px-8"
+      >
+        <div
+          class="text-center max-w-2xl mx-auto mb-20"
+          data-aos="fade-down"
+          data-aos-duration="800"
+        >
+          <p
+            class="uppercase tracking-widest text-sm text-white/80 mb-2"
+            data-aos="fade-down"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            Abogados
+          </p>
+          <h2
+            class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-2"
+            data-aos="fade-down"
+            data-aos-duration="800"
+            data-aos-delay="400"
+          >
+            Especialidades legales
+          </h2>
+        </div>
+
+        <div class="relative max-w-6xl mx-auto">
+          <div
+            class="absolute top-0 bottom-0 left-1/2 transform -translate-x-1/2 w-px bg-white/30"
+          ></div>
+
+          <div>
+            <div
+              class="flex flex-col md:flex-row items-center justify-between gap-8"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-offset="200"
+            >
+              <div class="w-full md:w-5/12 flex justify-end">
+                <div class="text-right max-w-sm">
+                  <div
+                    class="mb-4 inline-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="600"
+                    data-aos-delay="200"
+                  >
+                    <svg
+                      class="w-24 h-24 text-white"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M12 3l-8 5v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V8l-8-5z"
+                      ></path>
+                      <path d="M12 14.5L6 12M18 12l-6 2.5"></path>
+                      <path d="M12 21V14.5"></path>
+                      <path d="M8.5 10.5L12 9l3.5 1.5"></path>
+                      <path d="M15.5 10.5L12 12l-3.5-1.5"></path>
+                    </svg>
+                  </div>
+                  <h3
+                    class="text-3xl font-semibold mb-2"
+                    data-aos="fade-right"
+                    data-aos-duration="800"
+                    data-aos-delay="300"
+                  >
+                    Derecho civil
+                  </h3>
+                  <p
+                    class="text-white/80 text-sm"
+                    data-aos="fade-right"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                  >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus lacinia odio vitae vestibulum vestibulum.
+                  </p>
+
+                  <a
+                    href="https://wa.me/51999999999"
+                    target="_blank"
+                    class="mt-4 bg-[#E47F58] text-white rounded-full p-3 hover:bg-[#D1704F] hover:scale-110 transition-all duration-300 inline-flex items-center justify-center"
+                    aria-label="Más sobre Derecho penal"
+                    data-aos="zoom-in-right"
+                    data-aos-duration="700"
+                    data-aos-delay="500"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="w-6 h-6 bg-[#E47F58] rounded-full border-4 border-[#113A3F] z-10"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+              ></div>
+              <div class="hidden md:block w-5/12"></div>
+            </div>
+
+            <div
+              class="flex flex-col md:flex-row items-center justify-between gap-8"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-offset="200"
+            >
+              <div class="hidden md:block w-5/12"></div>
+              <div
+                class="w-6 h-6 bg-[#E47F58] rounded-full border-4 border-[#113A3F] z-10"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+              ></div>
+              <div class="w-full md:w-5/12 flex justify-start">
+                <div class="text-left max-w-sm">
+                  <div
+                    class="mb-4 inline-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="600"
+                    data-aos-delay="200"
+                  >
+                    <svg
+                      class="w-24 h-24 text-white"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M17 20s-3-3-5-3-5 3-5 3"></path>
+                      <path d="M12 17a2 2 0 100-4 2 2 0 000 4z"></path>
+                      <path
+                        d="M12 3a4 4 0 00-4 4v2a4 4 0 108 0V7a4 4 0 00-4-4z"
+                      ></path>
+                      <path d="M5 17a2 2 0 100-4 2 2 0 000 4z"></path>
+                      <path d="M19 17a2 2 0 100-4 2 2 0 000 4z"></path>
+                    </svg>
+                  </div>
+                  <h3
+                    class="text-3xl font-semibold mb-2"
+                    data-aos="fade-left"
+                    data-aos-duration="800"
+                    data-aos-delay="300"
+                  >
+                    Derecho de familia
+                  </h3>
+                  <p
+                    class="text-white/80 text-sm"
+                    data-aos="fade-left"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                  >
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam.
+                  </p>
+
+                  <a
+                    href="https://wa.me/51999999999"
+                    target="_blank"
+                    class="mt-4 bg-[#E47F58] text-white rounded-full p-3 hover:bg-[#D1704F] hover:scale-110 transition-all duration-300 inline-flex items-center justify-center"
+                    aria-label="Más sobre Derecho penal"
+                    data-aos="zoom-in-left"
+                    data-aos-duration="700"
+                    data-aos-delay="500"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col md:flex-row items-center justify-between gap-8"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-offset="200"
+            >
+              <div class="w-full md:w-5/12 flex justify-end">
+                <div class="text-right max-w-sm">
+                  <div
+                    class="mb-4 inline-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="600"
+                    data-aos-delay="200"
+                  >
+                    <svg
+                      class="w-24 h-24 text-white"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M14.5 9.5L12 2l-2.5 7.5"></path>
+                      <path d="M5 21h14"></path>
+                      <path
+                        d="M12 10a2 2 0 00-2 2v3a2 2 0 004 0v-3a2 2 0 00-2-2z"
+                      ></path>
+                      <path
+                        d="M3 10h5l1 2a2 2 0 002 1h2a2 2 0 002-1l1-2h5"
+                      ></path>
+                      <path d="M6.5 21L7 10"></path>
+                      <path d="M17.5 21L17 10"></path>
+                    </svg>
+                  </div>
+                  <h3
+                    class="text-3xl font-semibold mb-2"
+                    data-aos="fade-right"
+                    data-aos-duration="800"
+                    data-aos-delay="300"
+                  >
+                    Derecho laboral
+                  </h3>
+                  <p
+                    class="text-white/80 text-sm"
+                    data-aos="fade-right"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                  >
+                    Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.
+                  </p>
+
+                  <a
+                    href="#"
+                    class="mt-4 bg-[#E47F58] text-white rounded-full p-3 hover:bg-[#D1704F] hover:scale-110 transition-all duration-300 inline-flex items-center justify-center"
+                    aria-label="Más sobre Derecho penal"
+                    data-aos="zoom-in-right"
+                    data-aos-duration="700"
+                    data-aos-delay="500"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="w-6 h-6 bg-[#E47F58] rounded-full border-4 border-[#113A3F] z-10"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+              ></div>
+              <div class="hidden md:block w-5/12"></div>
+            </div>
+
+            <div
+              class="flex flex-col md:flex-row items-center justify-between gap-8"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-offset="200"
+            >
+              <div class="hidden md:block w-5/12"></div>
+              <div
+                class="w-6 h-6 bg-[#E47F58] rounded-full border-4 border-[#113A3F] z-10"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+              ></div>
+              <div class="w-full md:w-5/12 flex justify-start">
+                <div class="text-left max-w-sm">
+                  <div
+                    class="mb-4 inline-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="600"
+                    data-aos-delay="200"
+                  >
+                    <svg
+                      class="w-24 h-24 text-white"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                      ></path>
+                      <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                  </div>
+                  <h3
+                    class="text-3xl font-semibold mb-2"
+                    data-aos="fade-left"
+                    data-aos-duration="800"
+                    data-aos-delay="300"
+                  >
+                    Derecho Inmobiliario
+                  </h3>
+                  <p
+                    class="text-white/80 text-sm"
+                    data-aos="fade-left"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                  >
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+
+                  <a
+                    href="https://wa.me/51999999999"
+                    target="_blank"
+                    class="mt-4 bg-[#E47F58] text-white rounded-full p-3 hover:bg-[#D1704F] hover:scale-110 transition-all duration-300 inline-flex items-center justify-center"
+                    aria-label="Más sobre Derecho penal"
+                    data-aos="zoom-in-left"
+                    data-aos-duration="700"
+                    data-aos-delay="500"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="flex flex-col md:flex-row items-center justify-between gap-8"
+              data-aos="fade-right"
+              data-aos-duration="800"
+              data-aos-offset="200"
+            >
+              <div class="w-full md:w-5/12 flex justify-end">
+                <div class="text-right max-w-sm">
+                  <div
+                    class="mb-4 inline-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="600"
+                    data-aos-delay="200"
+                  >
+                    <svg
+                      class="w-24 h-24 text-white"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect
+                        x="3"
+                        y="3"
+                        width="18"
+                        height="18"
+                        rx="2"
+                        ry="2"
+                      ></rect>
+                      <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                      <line x1="12" y1="7" x2="12.01" y2="7"></line>
+                      <line x1="17" y1="7" x2="17.01" y2="7"></line>
+                      <line x1="7" y1="12" x2="7.01" y2="12"></line>
+                      <line x1="12" y1="12" x2="12.01" y2="12"></line>
+                      <line x1="17" y1="12" x2="17.01" y2="12"></line>
+                      <line x1="7" y1="17" x2="7.01" y2="17"></line>
+                      <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                      <line x1="17" y1="17" x2="17.01" y2="17"></line>
+                    </svg>
+                  </div>
+                  <h3
+                    class="text-3xl font-semibold mb-2"
+                    data-aos="fade-right"
+                    data-aos-duration="800"
+                    data-aos-delay="300"
+                  >
+                    Derecho comercial
+                  </h3>
+                  <p
+                    class="text-white/80 text-sm"
+                    data-aos="fade-right"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                  >
+                    Quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.
+                  </p>
+
+                  <a
+                    href="#"
+                    class="mt-4 bg-[#E47F58] text-white rounded-full p-3 hover:bg-[#D1704F] hover:scale-110 transition-all duration-300 inline-flex items-center justify-center"
+                    aria-label="Más sobre Derecho penal"
+                    data-aos="zoom-in-right"
+                    data-aos-duration="700"
+                    data-aos-delay="500"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div
+                class="w-6 h-6 bg-[#E47F58] rounded-full border-4 border-[#113A3F] z-10"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+              ></div>
+              <div class="hidden md:block w-5/12"></div>
+            </div>
+
+            <div
+              class="flex flex-col md:flex-row items-center justify-between gap-8"
+              data-aos="fade-left"
+              data-aos-duration="800"
+              data-aos-offset="200"
+            >
+              <div class="hidden md:block w-5/12"></div>
+              <div
+                class="w-6 h-6 bg-[#E47F58] rounded-full border-4 border-[#113A3F] z-10"
+                data-aos="zoom-in"
+                data-aos-duration="600"
+              ></div>
+              <div class="w-full md:w-5/12 flex justify-start">
+                <div class="text-left max-w-sm">
+                  <div
+                    class="mb-4 inline-block"
+                    data-aos="zoom-in"
+                    data-aos-duration="600"
+                    data-aos-delay="200"
+                  >
+                    <svg
+                      class="w-24 h-24 text-white"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M14.75 19.25L12 16.5l-2.75 2.75"></path>
+                      <path d="M14.75 19.25L9.25 13.75"></path>
+                      <path d="M9.25 13.75L5.5 17.5"></path>
+                      <path d="M5.5 17.5l-1.5 1.5"></path>
+                      <path d="M10.5 7.5l3-3 5.5 5.5-3 3"></path>
+                      <path d="M13.5 4.5L19 10"></path>
+                    </svg>
+                  </div>
+                  <h3
+                    class="text-3xl font-semibold mb-2"
+                    data-aos="fade-left"
+                    data-aos-duration="800"
+                    data-aos-delay="300"
+                  >
+                    Derecho penal
+                  </h3>
+                  <p
+                    class="text-white/80 text-sm"
+                    data-aos="fade-left"
+                    data-aos-duration="800"
+                    data-aos-delay="400"
+                  >
+                    Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+
+                  <a
+                    href="https://wa.me/51999999999"
+                    target="_blank"
+                    class="mt-4 bg-[#E47F58] text-white rounded-full p-3 hover:bg-[#D1704F] hover:scale-110 transition-all duration-300 inline-flex items-center justify-center"
+                    aria-label="Más sobre Derecho penal"
+                    data-aos="zoom-in-left"
+                    data-aos-duration="700"
+                    data-aos-delay="500"
+                  >
+                    <svg
+                      class="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      ></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-white py-16 sm:py-20 lg:py-24">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="text-center mb-12 md:mb-16">
+            <div
+              class="inline-block"
+              data-aos="zoom-in"
+              data-aos-duration="700"
+            >
+              <svg
+                class="w-14 h-14 mx-auto mb-4"
+                viewBox="0 0 48 48"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 4L6 10V22C6 33.08 13.92 42.28 24 44C34.08 42.28 42 33.08 42 22V10L24 4Z"
+                  fill="#E47F58"
+                />
+                <path
+                  d="M24 14L18 16.5V25H30V16.5L24 14Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M18 19H30"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20.5 25V29"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M27.5 25V29"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M18 29H23"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M25 29H30"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h2
+              class="text-3xl sm:text-4xl lg:text-5xl text-slate-800 mb-3"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="200"
+            >
+              Preguntas frecuentes
+            </h2>
+            <p
+              class="text-slate-500 text-base md:text-lg max-w-xl mx-auto mb-6"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="300"
+            >
+              Todo lo que necesitas saber sobre el producto y la facturación.
+            </p>
+            <div
+              class="w-16 h-1 bg-[#E47F58] mx-auto"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="400"
+            ></div>
+          </div>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 lg:gap-x-10 gap-y-10 lg:gap-y-12"
+          >
+            <div
+              class="text-center"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="500"
+            >
+              <div
+                class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#F7F3EF] mb-5"
+              >
+                <svg
+                  class="w-7 h-7 text-[#E47F58]"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193l-3.722.067c-.517.013-.997.05-1.48.107a48.099 48.099 0 00-4.624.603c-.827.241-1.704.241-2.531 0a48.049 48.049 0 00-4.624-.603c-.483-.057-.963-.094-1.48-.107l-3.722-.067A2.105 2.105 0 012.25 14.894V10.607c0-.97.616-1.813 1.5-2.097L6.75 8.115C7.572 7.892 8.4 7.845 9.22 7.845s1.648.047 2.47.27l2.531.766A48.026 48.026 0 0014.25 9.958c.939-.364 1.941-.364 2.88-.001l2.121.823zM2.25 9.352a48.044 48.044 0 00-.002-1.015A48.044 48.044 0 002.25 9.352z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold text-slate-800 mb-2">
+                ¿Qué servicios ofrece el bufete de abogados?
+              </h3>
+              <p class="text-base text-slate-600 leading-relaxed">
+                Nuestro bufete de abogados brinda servicios legales integrales
+                en derecho civil, familiar, penal, laboral y comercial. Ayudamos
+                tanto a clientes individuales como a empresas a resolver
+                problemas legales, representarlos en los tribunales y preparar
+                los documentos necesarios.
+              </p>
+            </div>
+
+            <div
+              class="text-center"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="600"
+            >
+              <div
+                class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#F7F3EF] mb-5"
+              >
+                <svg
+                  class="w-7 h-7 text-[#E47F58]"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold text-slate-800 mb-2">
+                ¿Cuánto cuesta una consulta legal?
+              </h3>
+              <p class="text-base text-slate-600 leading-relaxed">
+                El costo de una consulta legal depende de la complejidad del
+                caso. Ofrecemos una consulta inicial para evaluar sus
+                necesidades y proporcionar una estimación detallada del precio.
+                Póngase en contacto con nosotros para discutir los detalles.
+              </p>
+            </div>
+
+            <div
+              class="text-center"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="700"
+            >
+              <div
+                class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#F7F3EF] mb-5"
+              >
+                <svg
+                  class="w-7 h-7 text-[#E47F58]"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-3.75h.008v.008H12v-.008z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold text-slate-800 mb-2">
+                ¿Cómo puedo programar una cita?
+              </h3>
+              <p class="text-base text-slate-600 leading-relaxed">
+                Para programar una consulta, comuníquese con nosotros por
+                teléfono, correo electrónico o utilice el formulario de contacto
+                en nuestro sitio web. Las reuniones en línea también están
+                disponibles.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="my-10 lg:my-12"
+            data-aos="fade-in"
+            data-aos-duration="800"
+            data-aos-delay="750"
+          >
+            <hr class="border-slate-200" />
+          </div>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 lg:gap-x-10 gap-y-10 lg:gap-y-12"
+          >
+            <div
+              class="text-center"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="500"
+            >
+              <div
+                class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#F7F3EF] mb-5"
+              >
+                <svg
+                  class="w-7 h-7 text-[#E47F58]"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold text-slate-800 mb-2">
+                ¿El bufete de abogados maneja casos de divorcio?
+              </h3>
+              <p class="text-base text-slate-600 leading-relaxed">
+                Sí, ayudamos con casos de divorcio, división de bienes, custodia
+                de los hijos y asuntos de pensión alimenticia. Brindamos
+                orientación sobre cómo prepararse para el proceso y representar
+                a los clientes en los tribunales.
+              </p>
+            </div>
+
+            <div
+              class="text-center"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="600"
+            >
+              <div
+                class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#F7F3EF] mb-5"
+              >
+                <svg
+                  class="w-7 h-7 text-[#E47F58]"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold text-slate-800 mb-2">
+                ¿Cuánto tiempo se tardará en resolver mi caso?
+              </h3>
+              <p class="text-base text-slate-600 leading-relaxed">
+                La duración de un procedimiento legal depende de su naturaleza y
+                complejidad. Algunos casos pueden resolverse en semanas,
+                mientras que otros pueden tardar meses o incluso años. Después
+                de un análisis inicial, proporcionaremos un cronograma estimado.
+              </p>
+            </div>
+
+            <div
+              class="text-center"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="700"
+            >
+              <div
+                class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#F7F3EF] mb-5"
+              >
+                <svg
+                  class="w-7 h-7 text-[#E47F58]"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                  />
+                </svg>
+              </div>
+              <h3 class="text-lg font-semibold text-slate-800 mb-2">
+                ¿Puedo recibir asistencia legal en línea?
+              </h3>
+              <p class="text-base text-slate-600 leading-relaxed">
+                Sí, ofrecemos consultas legales en línea y soporte telefónico.
+                Muchos asuntos legales se pueden discutir y resolver de forma
+                remota sin necesidad de una visita en persona a nuestra oficina.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contacto"
+        class="bg-[#113A3F] max-h-[1100px] mb-[800px] text-white py-24 px-4 sm:px-6 lg:px-8 text-center relative z-0 md:max-h-[750px] md:mb-[750px] lg:max-h-[750px] lg:mb-[740px]"
+      >
+        <!-- Subtítulo -->
+        <h3 data-aos="fade-down" data-aos-duration="500" class="uppercase tracking-widest text-sm text-white/80 mb-2">
+          Abogados
+        </h3>
+
+        <!-- Título principal -->
+        <h2
+          data-aos="fade-down" data-aos-duration="700"
+          class="text-4xl sm:text-5xl text-[#E47F58] font-semibold uppercase tracking-wide mb-6"
+        >
+          Contacto
+        </h2>
+
+        <!-- Línea vertical decorativa -->
+        <div class="w-[3px] h-10 bg-[#E47F58] mx-auto my-14"></div>
+
+        <!-- Grid de Contact Info -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
+          <!-- Phone -->
+          <div class="flex flex-col items-center space-y-3">
+            <div
+              data-aos="fade-down" data-aos-duration="500"
+              class="bg-white/5 rounded-full w-14 h-14 flex items-center justify-center border-b-2 border-[#E47F58]"
+            >
+              <svg
+                class="w-5 h-5 text-[#ffffff]"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 5a2 2 0 012-2h3.6a1 1 0 01.96.73l1.17 4.09a1 1 0 01-.27.97l-2.2 2.2a11.03 11.03 0 005.17 5.17l2.2-2.2a1 1 0 01.97-.27l4.09 1.17a1 1 0 01.73.96V19a2 2 0 01-2 2h-1C9.61 21 3 14.39 3 6V5z"
+                />
+              </svg>
+            </div>
+            <p class="font-semibold text-white" data-aos="fade-in" data-aos-duration="500">Celular</p>
+            <p class="text-sm text-white/70" data-aos="fade-in" data-aos-duration="500">+51 923 417 407</p>
+          </div>
+
+          <!-- Email -->
+          <div class="flex flex-col items-center space-y-3">
+            <div
+              data-aos="fade-down" data-aos-duration="500"
+              class="bg-white/5 rounded-full w-14 h-14 flex items-center justify-center border-b-2 border-[#E47F58]"
+            >
+              <svg
+                class="h-5 w-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                />
+                <path
+                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                />
+              </svg>
+            </div>
+            <p class="font-semibold text-white" data-aos="fade-in" data-aos-duration="500">E-mail</p>
+            <p class="text-sm text-white/70" data-aos="fade-in" data-aos-duration="500">soporte@wize.pe</p>
+          </div>
+
+          <!-- Address -->
+          <div class="flex flex-col items-center space-y-3">
+            <div
+              data-aos="fade-down" data-aos-duration="500"
+              class="bg-white/5 rounded-full w-14 h-14 flex items-center justify-center border-b-2 border-[#E47F58]"
+            >
+              <svg
+                class="w-5 h-5 text-[#ffffff]"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.657 16.657L13.414 12.414A2 2 0 0012 12H6a2 2 0 00-2 2v6h6a2 2 0 001.414-.586l4.243-4.243z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 10a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+            </div>
+            <p class="font-semibold text-white" data-aos="fade-in" data-aos-duration="500">Dirección</p>
+            <p class="text-sm text-white/70 leading-relaxed" data-aos="fade-in" data-aos-duration="500">
+              Jr. Centenario 156, La Molina 15026
+            </p>
+          </div>
+        </div>
+
+        <!-- Imagen + formulario -->
+        <div
+          class="z-10 max-w-4xl mx-auto -mt-28 bg-[#F7F3EF] rounded-2xl overflow-hidden shadow-xl mt-16"
+        >
+          <div class="relative w-full h-80 overflow-hidden rounded-t-2xl">
+            <img
+              src="https://cdn.pixabay.com/photo/2022/04/10/16/42/lawyer-7123799_960_720.jpg"
+              alt="Contact"
+              class="w-full h-full object-cover object-center"
+            />
+            <!-- Capa oscura -->
+            <div class="absolute inset-0 bg-black/40"></div>
+          </div>
+
+          <!-- Formulario -->
+          <div class="py-16 px-6 sm:px-10 lg:px-16">
+            <div class="text-center mb-10">
+              <h4
+                class="text-[#E47F58] uppercase tracking-widest text-sm mb-2 font-semibold"
+              >
+                Abogados
+              </h4>
+              <h3 class="text-2xl sm:text-3xl text-[#0B2A2D] font-bold">
+                ¿Tienes alguna pregunta?<br />¡Escríbenos!
+              </h3>
+            </div>
+
+            <form class="space-y-8">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <input
+                  type="text"
+                  required
+                  placeholder="Nombre y apellidos *"
+                  class="w-full px-4 py-3 rounded-full border border-gray-300 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#E47F58]"
+                />
+                <input
+                  type="tel"
+                  required
+                  placeholder="Celular *"
+                  class="w-full px-4 py-3 rounded-full border border-gray-300 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#E47F58]"
+                />
+                <!-- <input
+                  type="email"
+                  placeholder="E-mail*"
+                  class="w-full px-4 py-3 rounded-full border border-gray-300 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#E47F58]"
+                /> -->
+              </div>
+
+              <textarea
+                placeholder="Tu mensaje (Opcional)"
+                rows="5"
+                class="w-full px-4 py-3 rounded-xl border border-gray-300 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-[#E47F58]"
+              ></textarea>
+
+              <div class="text-center">
+                <button
+                  type="submit"
+                  class="bg-[#E47F58] hover:bg-[#d1704f] text-white font-semibold px-8 py-3 rounded-full text-sm transition"
+                >
+                  Enviar mensaje
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#f8f5f1] text-gray-800 text-sm">
+      <!-- Sección superior -->
+      <div
+        class="max-w-7xl mx-auto px-6 md:px-8 lg:px-10 pt-24 pb-20 grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16"
+      >
+        <!-- Columna 1: Logo y descripción -->
+        <div class="space-y-6">
+          <div class="flex items-center space-x-3">
+            <div
+              class="w-16 h-16 rounded-full flex items-center justify-center text-white text-2xl"
+            >
+              <img src="./images/logo.png" alt="">
+            </div>
+            <span class="text-lg font-semibold text-[#0b2a2d]">Abogados</span>
+          </div>
+          <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+
+          <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+
+          <p class="text-gray-600 leading-relaxed text-sm md:text-base">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+        </div>
+
+        <!-- Columna 2: Contacto -->
+        <div class="space-y-4">
+          <h3
+            class="uppercase text-[#0b2a2d] text-base md:text-lg font-bold tracking-wide mb-2"
+          >
+            Contacto
+          </h3>
+
+          <div>
+            <a
+              href="tel:+610383766284"
+              class="text-[#0b2a2d] font-semibold text-sm flex items-center md:text-base hover:underline"
+            >
+              <svg
+                class="w-5 h-5 text-[#e47f58] mr-2"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 5a2 2 0 012-2h3.6a1 1 0 01.96.73l1.17 4.09a1 1 0 01-.27.97l-2.2 2.2a11.03 11.03 0 005.17 5.17l2.2-2.2a1 1 0 01.97-.27l4.09 1.17a1 1 0 01.73.96V19a2 2 0 01-2 2h-1C9.61 21 3 14.39 3 6V5z"
+                />
+              </svg>
+              +51 923 417 407 </a
+            ><br />
+            <a
+              href="mailto:noreply@envato.com"
+              class="text-[#0b2a2d] font-semibold text-sm flex items-center md:text-base hover:underline"
+            >
+              <svg
+                class="h-5 w-5 text-[#e47f58] mr-2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                />
+                <path
+                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                />
+              </svg>
+              soporte@wize.pe
+            </a>
+          </div>
+
+          <p class="text-[#666666] leading-relaxed text-sm md:text-base">
+            Jr. Centenario 156, La Molina 15026
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.621213747908!2d-76.93951192610673!3d-12.06956248816901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6c34f1fe2c7%3A0xa091f19f413baad7!2sBCP%20Sede%20Central!5e0!3m2!1ses-419!2spe!4v1747844250209!5m2!1ses-419!2spe"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <!-- Columna 3: Newsletter -->
+        <div class="space-y-4">
+          <h3
+            class="uppercase text-[#0b2a2d] text-base md:text-lg font-bold tracking-wide mb-2"
+          >
+            Horario de atención
+          </h3>
+          <ul class="text-gray-600 text-sm space-y-1">
+            <li>
+              <strong class="text-[#0b2a2d]">Lun - Vie:</strong> 9:00 AM – 6:00
+              PM
+            </li>
+            <li>
+              <strong class="text-[#0b2a2d]">Sábados:</strong> 10:00 AM – 2:00
+              PM
+            </li>
+            <li><strong class="text-[#0b2a2d]">Domingos:</strong> Cerrado</li>
+          </ul>
+
+          <a
+            href="#"
+            class="inline-flex items-center hero-button-bg text-white px-8 py-3.5 rounded-full text-sm sm:text-base font-semibold hover:shadow-lg transition-all duration-300 group"
+          >
+            Contáctanos
+            <svg
+              class="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Línea divisoria -->
+      <div class="border-t border-gray-200"></div>
+
+      <!-- Footer inferior -->
+      <div
+        class="max-w-7xl mx-auto px-6 md:px-8 lg:px-10 py-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600 gap-4"
+      >
+        <p class="text-center md:text-left">
+          © 2025 Creado por
+          <a href="https://wize.pe" class="text-[#0b2a2d] font-semibold"
+            >Wize</a
+          >
+          | Todos los derechos reservados
+        </p>
+        <div class="flex items-center space-x-5">
+          <a href="#" class="hover:text-[#0b2a2d] transition">Instagram</a>
+          <a href="#" class="hover:text-[#0b2a2d] transition">Facebook</a>
+          <a href="#" class="hover:text-[#0b2a2d] transition">Linkedin</a>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/51999999999"
+      class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all duration-300 animate__animated animate__fadeInUp animate__slow"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="WhatsApp"
+    >
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path
+          d="M20.52 3.48a11.8 11.8 0 00-16.7 0 11.8 11.8 0 00-2.58 13.06L.98 22.72l6.31-1.65a11.79 11.79 0 0013.23-17.59zM12.13 19.5a9.25 9.25 0 01-4.73-1.27l-.34-.2-3.75 1 .99-3.64-.23-.37a9.24 9.24 0 0114.22-11.22 9.22 9.22 0 01-5.16 15.7zm5.29-6.6c-.29-.15-1.7-.84-1.96-.93s-.45-.14-.64.15-.73.93-.9 1.12-.33.21-.62.07a7.53 7.53 0 01-2.2-1.35 8.26 8.26 0 01-1.54-1.91c-.16-.28-.02-.44.12-.58.12-.12.28-.31.42-.47s.19-.25.29-.42a.49.49 0 00-.02-.47c-.07-.14-.62-1.49-.85-2.05s-.46-.46-.63-.47-.35 0-.53 0a1.02 1.02 0 00-.74.35 3.12 3.12 0 00-.97 2.3 5.42 5.42 0 001.16 2.7c.15.21 2.14 3.27 5.2 4.59.73.31 1.3.5 1.74.63.73.23 1.4.2 1.93.12a3.25 3.25 0 002.14-1.51 2.64 2.64 0 00.18-1.51c-.07-.12-.26-.2-.54-.34z"
+        />
+      </svg>
+    </a>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      }); // Inicializa AOS con las opciones por defecto
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        function animateValue(element, start, end, duration) {
+          let startTimestamp = null;
+          const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min(
+              (timestamp - startTimestamp) / duration,
+              1
+            );
+            let currentValue = Math.floor(progress * (end - start) + start);
+            element.textContent = currentValue;
+            if (progress < 1) {
+              window.requestAnimationFrame(step);
+            }
+          };
+          window.requestAnimationFrame(step);
+        }
+
+        const numberSpans = document.querySelectorAll(".stat-number");
+
+        if (numberSpans.length === 0) {
+          console.warn(
+            'Contador Animado: No se encontraron elementos con la clase "stat-number".'
+          );
+          return;
+        } else {
+          console.log(
+            `Contador Animado: Encontrados ${numberSpans.length} elementos para animar.`
+          );
+        }
+
+        const observerOptions = {
+          root: null, // Relativo al viewport
+          rootMargin: "0px",
+          threshold: 0.1, // Se activa cuando al menos el 10% del elemento es visible
+        };
+
+        const observerCallback = (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const numberSpan = entry.target;
+              console.log(
+                "Contador Animado: Elemento intersectando:",
+                numberSpan
+              );
+
+              if (!numberSpan.dataset.animated) {
+                // Verifica si ya se animó
+                const targetValue = numberSpan.dataset.target;
+                console.log(
+                  "Contador Animado: Animando para target:",
+                  targetValue
+                );
+
+                if (targetValue === undefined || targetValue === null) {
+                  console.error(
+                    "Contador Animado: Atributo data-target no encontrado o vacío para el elemento:",
+                    numberSpan
+                  );
+                  observer.unobserve(numberSpan);
+                  return;
+                }
+
+                const target = parseInt(targetValue, 10);
+
+                if (isNaN(target)) {
+                  console.error(
+                    "Contador Animado: El valor de data-target no es un número para el elemento:",
+                    numberSpan
+                  );
+                  observer.unobserve(numberSpan);
+                  return;
+                }
+
+                animateValue(numberSpan, 0, target, 1500); // Anima durante 1.5 segundos
+                numberSpan.dataset.animated = "true"; // Marca como animado para evitar repeticiones
+                observer.unobserve(numberSpan); // Deja de observar después de que la animación comienza
+              } else {
+                // console.log('Contador Animado: Elemento ya marcado como animado:', numberSpan);
+              }
+            }
+          });
+        };
+
+        const numberObserver = new IntersectionObserver(
+          observerCallback,
+          observerOptions
+        );
+        numberSpans.forEach((span) => {
+          // console.log('Contador Animado: Observando elemento:', span);
+          numberObserver.observe(span);
+        });
+      });
+    </script>
+
+    <script>
+      const mobileMenuButton = document.getElementById("mobile-menu-button");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const mobileMenuCloseButton = document.getElementById(
+        "mobile-menu-close-button"
+      );
+      const menuIconPath = mobileMenuButton.querySelector("svg path");
+
+      function showMobileMenu() {
+        mobileMenu.classList.add("menu-active");
+        mobileMenu.classList.remove(
+          "opacity-0",
+          "scale-95",
+          "pointer-events-none"
+        );
+        mobileMenu.classList.add(
+          "opacity-100",
+          "scale-100",
+          "pointer-events-auto"
+        );
+        menuIconPath.setAttribute("d", "M6 18L18 6M6 6l12 12"); // Icono X
+        mobileMenuButton.setAttribute("aria-expanded", "true");
+        document.body.classList.add("overflow-hidden-body");
+      }
+
+      function hideMobileMenu() {
+        mobileMenu.classList.remove("menu-active");
+        mobileMenu.classList.add(
+          "opacity-0",
+          "scale-95",
+          "pointer-events-none"
+        );
+        mobileMenu.classList.remove(
+          "opacity-100",
+          "scale-100",
+          "pointer-events-auto"
+        );
+        menuIconPath.setAttribute("d", "M4 6h16M4 12h16m-7 6h7"); // Icono Hamburguesa
+        mobileMenuButton.setAttribute("aria-expanded", "false");
+        document.body.classList.remove("overflow-hidden-body");
+      }
+
+      mobileMenuButton.addEventListener("click", () => {
+        const isActive = mobileMenu.classList.contains("menu-active");
+        if (isActive) {
+          hideMobileMenu();
+        } else {
+          showMobileMenu();
+        }
+      });
+
+      mobileMenuCloseButton.addEventListener("click", () => {
+        hideMobileMenu();
+      });
+
+      mobileMenu.querySelectorAll("nav a").forEach((link) => {
+        link.addEventListener("click", (event) => {
+          if (link.getAttribute("href").startsWith("#")) {
+            hideMobileMenu();
+          }
+        });
+      });
+    </script>
+
+    <script>
+      document.querySelectorAll(".scroll-link").forEach((link) => {
+        link.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
